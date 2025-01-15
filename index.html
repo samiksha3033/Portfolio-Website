@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samiksha - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Samiksha's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home </a></li>
+            <li><a href="about.html"> About </a></li>
+            <li><a href="/"> Projects </a></li>
+            <li><a href="index.html#footer"> Contact me </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi my name is <span class="purple">Samiksha</span>
+          <h5>And I am a</h5>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" />
+        </div>
+      </section>
+      <hr />
+    </main>
+    <footer id="footer">
+      <div class="footer">
+        <div class="First">guptasamiksha742@gmail.com <br />
+          8306113286
+        </div>
+        <div class="Second">
+          <a href="https://drive.google.com/file/d/1ZUD8dHfvHlhGOKq9dbueA9fcCy3eWd62/view?usp=sharing" download>
+            <button class="btn">Download Resume</button>
+          </a>
+        </div>
+        <div class="Third">
+          <a
+            href="https://github.com/samiksha3033/Portfolio-Website.git"
+            target="_blank"
+          >
+            <button class="btn">Visit Github</button>
+          </a>
+        </div>
+        <div class="fourth">
+          <a
+            href="https://www.linkedin.com/in/samiksha-gupta-2980a1250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+          >
+            <button class="btn">Visit linkedin</button>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "BCA Student",
+          "Beginner in Web Designing",
+          "Dancer",
+          "Video editor",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
