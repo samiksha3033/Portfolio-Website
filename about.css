@@ -1,0 +1,64 @@
+h4,
+h2 {
+  margin-left: 20px;
+  margin-top: 130px;
+}
+
+p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.SecondSection {
+  max-width: 80vw;
+  margin: auto;
+  height: 60vh;
+  padding: 30px;
+}
+
+.SecondSection .box {
+  background: white;
+  width: 77vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+
+.SecondSection .vertical {
+  height: 100px;
+  width: 1px;
+  background-color: white;
+  margin: 0 150px;
+}
+
+.image-top {
+  width: 30px;
+  position: relative;
+  top: -25px;
+  left: -13px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 80px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: grey;
+  font-size: 9px;
+  width: 150px;
+}
+
+ul li {
+  margin-left: 60px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-left: 20px;
+}

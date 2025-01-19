@@ -1,0 +1,137 @@
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      body {
+          background-color: rgb(0, 0, 33);
+          color: white;
+          font-family: "Poppins", sans-serif;
+      }
+
+      nav {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 100px;
+          background-color: rgb(11, 11, 55);
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          z-index: 1000;
+      }
+
+      nav ul {
+          display: flex;
+          justify-content: center;
+      }
+
+      nav ul li {
+          list-style: none;
+          margin: 0 23px;
+      }
+
+      nav ul li a {
+          text-decoration: none;
+          color: white;
+      }
+
+      nav ul li a:hover {
+          font-size: 1.01rem;
+          color: rgb(160, 160, 223);
+      }
+
+      .left {
+          font-size: 1.5rem;
+      }
+
+      footer {
+          background-color: #0e0e1a;
+          height: 233px;
+      }
+
+      .First {
+          font-size: 25px;
+      }
+
+      .footer {
+          display: flex;
+          padding: 70px 100px;
+          justify-content: space-evenly;
+      }
+
+      #footer {
+          scroll-behavior: smooth;
+      }
+
+      .footer .btn {
+          background: #1e2167;
+          color: white;
+          border: 2px solid white;
+          padding: 3px 5px;
+          border-radius: 4px;
+          font-size: 20px;
+          cursor: pointer;
+      }
+
+      .footer .First {
+          font-size: 15px;
+          border: 2px solid #fff;
+          padding: 4px;
+          border-radius: 8px;
+          width: fit-content;
+          background-color: #1a1a2e;
+          color: #fff;
+          margin: 2px 2px;
+          text-align: center;
+      }
+
+      @media (max-width: 768px) {
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+        nav ul li {
+            margin: 10px 0;
+        }
+        nav {
+            height: auto;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .leftSection {
+            font-size: 2rem;
+        }
+        .First {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        footer {
+            height: auto;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .footer {
+            flex-direction: column;
+            gap: 20px;
+        }
+        .footer .btn {
+            font-size: 16px;
+            padding: 5px 10px;
+        }
+    }
+    main {
+        padding-top: 100px; /* Adjust this to your nav height */
+    }
+main hr {
+    border: 1px solid #9c97f1;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 3% auto;
+    width: 100%;
+  }
